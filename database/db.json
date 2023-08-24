@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "username": "Ali",
+      "email": "ali@gmail.com",
+      "password": "1234@qwe",
+      "id": 1
+    },
+    {
+      "username": "Abubakar",
+      "email": "abubakar@gmail.com",
+      "password": "12345@qwe",
+      "id": 2
+    },
+    {
+      "username": "Abubakar saddique",
+      "email": "abubakasaddiquer@gmail.com",
+      "password": "12345@qwe",
+      "id": 3
+    },
+    {
+      "username": "Abubakar",
+      "password": "12345@qwe",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;}
+    /* Section 1 */
+.bg-img{
+    background-image: url(assests/images/banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 0%;}
+.row{
+    width: 100%;
+  padding-left: 350px;
+  padding-bottom: 50px;}
+.row h5{
+    line-height: 0px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.row h2{
+    line-height: 0px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.row .para-1{
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    width: 302px;}
+.btn{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: 2px solid black;
+     border-radius: 20px;
+     padding: 11px 20px;
+     cursor: pointer;
+     background: none;
+     text-align: center;}
+
+     /* Section 2 */
+ .container1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        flex-wrap: wrap; }
+.row1{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;}
+.col{
+        width: 50%; }
+.img-1{
+    width: 60%;
+    float: right;}
+.col h5{
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 515px;
+    margin-top: -8%;}
+.col h2{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    margin-right: 25%;
+    margin-top: -3%;
+    width: 413px;}
+.col p{
+    font-size: medium;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 206px;
+    margin-top: 3%;
+    width: 364px;}
+.btn1{
+    margin-right: -95%;
+    float: right;
+    margin-top: -45%;
+    background: rgb(22, 190, 28);
+    border: 1px solid;
+    border-radius: 31px;
+    padding: 13px 25px;
+    color: white;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 15px;}
+        
+    /* Section 3 */
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;}
+.row2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;}
+img {
+        width: 100%; }
+.headings{
+        width: 50%;
+        text-align: center; }
+.headings h3 {
+    font-size: larger;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0px; }
+.headings h1{
+    font-size: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 532px;}
+.col-2{
+        width: 33.33%;
+        padding: 10px;}
+.cardDetail {
+        text-align: center;}
+.cardTitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.cardSubtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: initial;}
+    
+    /* Section 4 */
+.container3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        flex-wrap: wrap; }
+.row3{
+            width: 100%;
+            display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-wrap: wrap;}
+.heading2{
+            width: 50%;
+            text-align: center;
+            padding-right: 200px; }
+.heading2 p{
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    float: initial;
+    padding-left: 20px;}
+.heading2 h1{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: initial;
+    padding-left: 164px;}
+.btn2{
+    float: right;
+    background: rgb(22, 190, 28);
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 13px 25px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 15px;}
+.btn2:hover{
+             background-color: #fff;
+             color: #6B9C2E;}
+.row4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+.col-3{
+    width: 25%;}  
+.cardImg1{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition : .5s ease;
+    backface-visibility: hidden;} 
+.row1{
+    width: 100%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;}
+.cardDetail1{
+    text-align: start;}   
+.cardTitle1{
+    font-size: medium;
+    font-weight: lighter;
+    line-height: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green ;}  
+.cardSubtitle1{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -15px;
+    text-transform: uppercase;}
+
+     /* Section 5 */
+
+.container4{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        flex-wrap: wrap;}
+.bg-Img2{
+        background-image: url(assests/images/cta-lg.jpg);
+        background-position: center;
+        background-position: 1%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;}
+.text{
+    line-height: 0.5;
+        width: 100%;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.btn3{  
+            margin-top: 28px;
+            background: rgb(22, 190, 28);
+            border: 1px solid;
+            border-radius: 30px;
+            padding: 13px 25px;
+            color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;}
+            
+/* Section 6 */
+.container5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;}
+.row5{
+    width: 80%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+.heading3{
+    width: 86%;
+    text-align: left;
+    justify-content: left; }
+.heading3 p{
+    font-family: Arial, Helvetica, sans-serif;}
+.heading3 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0.5;}
+.row6{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+.col-4{
+    width: 30%;
+    padding: 20px;}   
+.cardDetail2{
+    text-align: left;
+    padding: 10px;}   
+.cardTitle2{
+    font-size: medium;
+    font-weight: lighter;
+    color: grey ;} 
+.card2{
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.2);} 
+.card2:hover{
+    color: #ddd;
+    background: #252d39;
+    transition: 0.5 ease;}
+.cardpara2{
+    width: 99%;
+    color: gray;}
+.cardSubtitle2{
+    font-weight: bolder;}
+
+
+    /* Adding Media Quries */
+
+    @media only screen and  (max-width:768px)
+    {    
+        /* Section 1 */
+        .bg-img{
+            background-position: center;
+            align-items :end ;}
+            
+            .row{
+                width: 100%;
+    padding-left: 40px;
+    padding-bottom: 133px;}
+    .row h5 {
+        font-size: medium;
+    }
+    .row h2 {
+        font-size: xx-large;
+    }
+    .row .para-1 {
+        width: 280px;
+    font-size: medium;
+    }
+    .btn {
+        padding: 6px 9px;
+        
+    }
+       
+       /* Section 2 */
+       .row1{ width: 80%;}
+       .col { width: 100%; }
+       .img-1 {
+        width: 100%;
+        float: right;
+    }
+    .col h5{
+        margin-right: 143px;
+        margin-top: 6px;
+        }
+    .col h2{
+        margin-right: -6%;
+        width: 303px;}
+    .col p{
+    margin-right: -28px;
+    width: 320px;}
+    .btn1{
+    margin-top: 0%;
+    margin-right: auto;
+         }
+      
+         /* Section 3 */
+
+         .row2 {
+            width: 100%;
+            }
+            .headings {
+                width: 87%;
+            }
+            .headings h1{
+                font-size: 28px;
+                width: 333px;}
+                .col-2 {
+                    width: 86%;
+                }
+                /* Section 4 */
+                
+                .heading2 {
+                    width: 100%;
+                    padding-right: 23px;
+                    padding-bottom: 3%;
+                }
+                .heading2 p{
+                    padding-right: initial;
+                    padding-left: 0px;
+                }
+        .heading2 h1{
+            padding-left: 10px;
+            line-height: 0.2;
+        }
+            .btn2 {
+                border-radius: 20px;
+                padding: 8px 10px;
+                font-size: 13px;
+                float: initial;
+            }
+           .row4 {
+                 width: 86%;
+                display: block;
+                }
+                .col-3{
+                    width: 100%;
+                    line-height: 4;
+                }
+                .cardDetail1 {
+                    text-align: center;
+                }
+                .cardSubtitle1 {
+                    margin-top: -42px;
+                    padding-left: 15px;
+                }
+
+       /* Section 5 */
+          .bg-Img2{
+            background-position: center;
+          }
+       /* Section 6 */
+
+       .row6{
+        width: 100%;
+        } 
+        .col-4 {
+            width: 85%;
+            padding: 30px;
+        }
+    }
+    </style>
+</head>
+<body>
+      <!-- Section 1 -->
+    <section class="bg-img " >
+        <div class="row">
+          <h5>WE ARE HERE TO</h5>
+          <h2>PLANNING BUSINESS</h2>
+          <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis Adipisci molestias modi sequi laboriosam!</p>
+          <div>
+              <a href="" ><button type="button" class="btn">MORE DETAILS</button></a>
+          </div>
+        </div>
+      </section>
+        <!-- Section 2 -->
+        <section class="container1">
+          <div class="row1">
+            <div class="col">
+              <img class="img-1" src="assests/images/about-us.png" alt="" >
+            </div>
+              <div class="col">
+                    <h5>About Us</h5>
+                       <h2>WE ARE DYNAMIC TEAM AND BUSINESS AGENCY</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi maxime, aliquid illo voluptatem maiores mollitia excepturi repellendus quos laboriosam.</p> 
+              </div>
+              <div>
+                <a href=""><button type="button" class="btn1">MORE SERVICE</button></a>
+            </div>
+          </div>
+      </section> 
+      <!-- Section 3 -->
+      <section class="container2">
+        <div class="row2">
+            <div class="headings">
+                    <h3>Our Team</h3>
+                    <h1>WE ARE DYNAMIC TEAM AND BUSINESS AGENCY</h1> 
+                </div>
+              </div>
+              
+             <div class="row2">
+                <div class="col-2">
+                  <div class="card">
+                    <img src="assests/images/team-1.jpg" alt="" class="cardImg">
+                  <div class="cardDetail">
+                    <h2 class="cardTitle">MONICA HELLEONA</h2>
+                    <h3 class="cardSubtitle">Designer</h3>
+                  </div> 
+                </div>
+           </div>
+    
+                 <div class="col-2">
+                  <div class="card">   
+                  <img src="assests/images/team-2.jpg" alt="" class="cardImg">
+                <div class="cardDetail">
+                  <h2 class="cardTitle">ALEX MONATIMD</h2>
+                  <h3 class="cardSubtitle">Project Manager<h3>
+              </div>             
+              </div>
+              </div>
+                  
+              <div class="col-2">
+                <div class="card">
+                    <img src="assests/images/team-3.jpg" alt="" class="cardImg">
+                    <div class="cardDetail">
+                        <h2 class="cardTitle">JENNIFER GARNER</h2>
+                        <h3 class="cardSubtitle">Developer</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Section 4 -->
+      <section class="container3">
+        <div class="row3">
+            <div class="heading2">
+                <p>Case Study</p>
+                <h1>BEXAR CASE STUDIES</h1>
+            </div>
+            <div class="heading2">
+              <a href=""><button type="button" class="btn2">MORE PROJECTS</button></a>
+            </div>
+        </div>
+
+        <div class="row4">
+            <div class="col-3">
+                <div class="card1">
+                    <img src="assests/images/project-1.jpg" alt="" class="cardImg1">
+                    <div class="cardDetail1">
+                        <h2 class="cardTitle1">Bussiness Solution</h2>
+                        <h3 class="cardSubtitle1">Art Institute Of Chicago</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card1">
+                    <img src="assests/images/project-2.jpg" alt="" class="cardImg1">
+                    <div class="cardDetail1">
+                        <h2 class="cardTitle1">Digital Markting</h2>
+                        <h3 class="cardSubtitle1">Looks Trend Reports</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card1">
+                    <img src="assests/images/project-3.jpg" alt="" class="cardImg1">
+                    <div class="cardDetail1">
+                        <h2 class="cardTitle1">Finincial Analysis</h2>
+                        <h3 class="cardSubtitle1">looks Reports</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card1">
+                    <img src="assests/images/project-4.jpg" alt="" class="cardImg1">
+                    <div class="cardDetail1">
+                        <h2 class="cardTitle1">Marketing</h2>
+                        <h3 class="cardSubtitle1">Celebrate With Stoli</h3>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!-- Section 5 -->
+    <section class="container4 bg-Img2">
+        
+      <div class="text">
+          <h1>BEXER GIVE THE SMART SOLUTION </h1>
+          <h2>FOR YOUR BUSSINESS</h2>
+      <a href=""><button type="button" class="btn3">GET AN QUOTE</button></a>
+      </div>
+</section>
+      <!-- Section 6 -->
+      <section class="container5">
+        <div class="row5">
+            <div class="heading3">
+                <p>Latest News</p>
+                <h1>LEARN FROM BEXAR</h1>
+            </div>
+           
+        </div>
+
+        <div class="row6">
+            <div class="col-4">
+                <div class="card2">
+                    <img src="assests/images/post-1.jpg" alt="" class="cardImg2">
+                    <div class="cardDetail2">
+                        <h2 class="cardTitle2">BY THEMEFISHER/ ON 07 FEB 2019</h2>
+                        <h3 class="cardSubtitle2">BUSINESS CONSULTING</h3>
+                        <p class="cardpara2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card2">
+                    <img src="assests/images/post-2.jpg" alt="" class="cardImg2">
+                    <div class="cardDetail2">
+                        <h2 class="cardTitle2">BY THEMEFISHER/ ON 07 FEB 2019</h2>
+                        <h3 class="cardSubtitle2">BUSINESS CONSULTING</h3>
+                        <p class="cardpara2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card2">
+                    <img src="assests/images/post-3.jpg" alt="" class="cardImg2">
+                    <div class="cardDetail2">
+                        <h2 class="cardTitle2">BY THEMEFISHER/ ON 07 FEB 2019</h2>
+                        <h3 class="cardSubtitle2">BUSINESS CONSULTING</h3>
+                        <p class="cardpara2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
